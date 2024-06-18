@@ -24,3 +24,7 @@ git clone https://github.com/Abid-M/mvp-books.git
      
 3. Run the file with a live server
    - Launch a development local server with live reload feature for static & dynamic pages
+
+## Preview
+https://github.com/Abid-M/mvp-books/assets/77882906/281026c5-1bbf-45f1-89ca-b73b112cfd28
+
