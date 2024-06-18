@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/default.css">
+    <link rel ="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="./scripts/index.js" defer></script>
+    <title>Book display!</title>
+</head>
+<body>
+    <header>
+        <h1>Library Book list</h1>
+        <div id="filters">
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                <!-- populates options dynamically in js file -->
+            </select>
+
+            <label for="availability-filter">Filter by Availability:</label>
+            <select id="availability-filter">
+                <option value="">All Books</option>
+                <option value="available">Available</option>
+                <option value="loaned">Loaned</option>
+            </select>
+        </div>
+    </header>
+
+    <ul id="book-list">
+
+    </ul>
+    <div class="footer">
+        &copy; 2024 Abid Miah Library Site
+    </div>
+</body>
+</html>
