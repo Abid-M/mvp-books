@@ -17,7 +17,7 @@ Before running the tests, make sure to have [VSC](https://code.visualstudio.com/
 ## Setup Instructions
 1. Clone this repo to your local machine.
 ```
-git clone 
+git clone https://github.com/Abid-M/mvp-books.git
 ```
 
 2. Install Live Server extension on VSC. This is to ensure can run static/dynamic web pages on local server without CORS error.
